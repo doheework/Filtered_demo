@@ -1,0 +1,225 @@
+@font-face { 
+  src : url("ML-Regular.otf");
+  font-family:"ml";}
+
+body {
+  margin: 70px atuo;
+  background: white;
+  background-image : url('background-02.png');
+  background-size : 100% ;
+  background-repeat: repeat-y;
+  }
+
+
+
+.here{
+  position:fixed;
+  font-family: Aglet Sans;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+  bottom:190px;
+  left:8%;
+  color: #A9A6A6;
+}
+
+.circle{
+  top:440px;
+  margin-left:120px;
+  background: radial-gradient(50% 50% at 50% 50%, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%);
+}
+
+textarea {
+  left: 50%;
+  transform: translate(-50%,0%);
+  position:fixed;
+  bottom:5%;
+  resize:none;
+  width:90%;
+  height:130px;
+  font-family: ml;
+  font-style: normal;
+  font-size:70px;
+  padding-top:20Px;
+  padding-left:5%;
+  padding-right:5%;
+  background: #FFFFFF;
+  border: 2px solid #CDCDCD;
+  outline: none;
+  box-sizing: border-box;
+  border-radius: 40px;
+}
+
+.textblock{
+  position:fixed;
+  background-image: linear-gradient(180deg, rgba(255, 255, 255, 0) 8.13%, #FFFFFF 29.01%, #FFFFFF 65.26%, rgba(255, 255, 255, 0) 86.75%);
+  bottom:-70px;
+  width:97%;
+  height:350px;
+  left: 50%;
+  transform: translate(-50%,0%);
+}
+
+.title {
+  position: absolute;
+  width:82%;
+  height:auto;
+  left: 50%;
+  transform: translate(-50%,0%);
+  top: -60px;
+}
+
+.top {
+  position:absolute;
+  top:-2px;
+  left: 50%;
+  transform: translate(-50%,0%);
+  width:100%;
+  height:600px;
+  background-color: white;
+}
+
+.topblur{
+  position:absolute;
+  left: 50%;
+  transform: translate(-50%,0%);
+  width:100%;
+  top:600px;
+  height:586px;
+  background-image: linear-gradient(181.59deg, #FFFFFF 14.26%, rgba(255, 255, 255, 0) 92.86%);
+}
+
+
+.blocks {
+  position: relative;
+  text-align: center;
+  left: 50%;
+  transform: translate(-50%,0%);
+  width:75%;
+  top:740px;
+  display: grid;
+  grid-row-gap:5%;
+  font-family: aglet-sans, sans-serif;
+  font-weight: normal;
+  font-size: 23px;
+  font-style: italic;
+  line-height: 35px;
+  padding-bottom: 80%;
+}
+
+.block {
+  position: relative;
+  display:block;
+  text-align: center;
+  left: 50%;
+  transform: translate(-50%,0%);
+  border:1px;
+  background-color:white;
+  box-shadow: 0px 0px 100px 40px rgba(0, 0, 0, 0.25);
+  padding-left:14%;
+  padding-right:14%;
+  padding-top:8%;
+  padding-bottom:8%;
+  }  
+
+  .example {
+    color:black;
+    font-family: ml;
+    font-style: normal;
+    line-height: 150px;
+    font-size:120px;
+    letter-spacing:-22px;
+  }
+
+.block2 {
+  position: relative;
+  text-align: center;
+  left: 50%;
+  transform: translate(-50%,0%);
+  border:1px;
+  border-radius:58px;
+  background-color:white;
+  box-shadow: 0px 0px 100px 40px rgba(0, 0, 0, 0.25);
+  padding-left:14%;
+  padding-right:14%;
+  padding-top:8%;
+  padding-bottom:8%;
+}  
+  
+.machine {
+  width:775px;
+  color:black;
+  
+}  
+
+.block3 {
+  position: relative;
+  text-align: center;
+  left: 50%;
+  transform: translate(-50%,0%);
+  border:1px;
+  background-color:white;
+  box-shadow: 0px 0px 100px 40px rgba(0, 0, 0, 0.25);
+  padding-left:14%;
+  padding-right:14%;
+  padding-top:8%;
+  padding-bottom:10%;
+  border-radius:58px;
+}          
+  
+.filter{
+  width:47%;
+  height:auto;
+  left: 50%;
+}
+
+.filterex {
+
+  color:black;
+}          
+
+.block4 {
+  position: relative;
+  text-align: center;
+  left: 50%;
+  transform: translate(-50%,0%);
+  border:1px;
+  background-color:white;
+  box-shadow: 0px 0px 100px 40px rgba(0, 0, 0, 0.25);
+  padding-left:12%;
+  padding-right:12%;
+  padding-bottom:8%;
+  padding-top:6%;
+  border-radius:58px;
+}     
+
+.operation{
+  width:64%;
+  height:auto;
+  left: 50%;
+}
+
+.operationex {
+  color:black;
+}   
+
+.block5 {
+  position: relative;
+  text-align: center;
+  left: 50%;
+  transform: translate(-50%,0%);
+  border:1px;
+  background-color:white;
+  box-shadow: 0px 0px 100px 40px rgba(0, 0, 0, 0.25);
+  padding:14%;
+  border-radius:58px;
+}     
+
+.with {
+  color:black;
+  font-family: ml;
+  font-style: normal;
+  line-height: 96px;
+  font-size:80px;
+}  
